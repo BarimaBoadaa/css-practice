@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e3edfd;
+  font-family: "Roboto", sans-serif;
+}
+.required {
+  color: red;
+}
+
+.forms {
+  border: 1px solid rgba(128, 128, 128, 0.262);
+  width: 100%;
+  padding: 1rem;
+  margin: 0.8rem auto;
+  border-radius: 10px;
+  background-color: white;
+}
+form {
+  width: 38.5rem;
+  margin: 2px auto;
+}
+
+hr {
+  margin: 1rem -1rem;
+  color: rgba(128, 128, 128, 0.262);
+}
+
+.head {
+  margin-top: 1rem !important;
+  height: 12rem;
+  border-top: 0.5rem solid #4285f4;
+}
+
+.answerBox {
+  margin: 3rem 0 2rem 0;
+  border: 0;
+  border-bottom: 1px solid gray;
+  outline: 0;
+  width: 19rem;
+}
+
+.selection {
+  margin: 1rem 0;
+}
+
+.mailIcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greenLine {
+  background-color: green;
+  height: 0.7rem;
+  width: 11rem;
+  border-radius: 10px;
+  margin: 0.2rem;
+}
+
+.submit {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  width: 7rem;
+  height: 2.7rem;
+}
+
+.clear {
+  background: none;
+  color: blue;
+  border: none;
+}
+
+.line_p {
+  display: flex;
+  margin: 1rem 0;
+}
+
+a {
+  color: grey;
+}
